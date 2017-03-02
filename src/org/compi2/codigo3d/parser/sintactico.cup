@@ -30,7 +30,6 @@ precedence left MAS, MENOS;
 precedence left MULT, DIV; 
 precedence right POT; 
 
-
 start with inicial;
 
 inicial     ::= {: ControlC3D.reiniciar(); :} expresion:exp 
